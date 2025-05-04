@@ -47,7 +47,19 @@ body{
     margin: 20px;
     color: white;
     font-size: 15px;
+
+} 
+
+
+nav a:hover {
+	font-weight: 100;
+    color: yellowgreen;
 }
+
+.active {
+	color: yellow;
+}
+
 
 main {
     display: grid;
