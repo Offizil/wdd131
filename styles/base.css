@@ -64,6 +64,7 @@ main {
     border-radius: 20px;
     border-color: #ffffff;
     margin-bottom: 10px;
+    list-style: none;
 }
 
 .ab_me_banner{
@@ -117,6 +118,10 @@ hr {
     grid-area:1/2/2/3;
     width: 100px;
     Height: 120px;
+}
+
+#wdr_content li {
+    list-style: none;  
 }
 
 
