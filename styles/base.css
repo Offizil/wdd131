@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400&family=Poppins:wght@200&display=swap');
+
+:root {
+    --heading-font: poppins;
+}
+
+
+
+body{
+    font-family:'Bitter', Poppins;
+    font-size: 18px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+#course_title {
+    width: 100%;
+    background-color: #57475e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    /* font-size: 20px; */
+    align-items: center;
+    align-content: center;
+}
+
+.navigation {
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    align-items: center;
+    align-content: center;
+    list-style: none;
+}
+
+.navlinks {
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    font-size: 15px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+}
+
+.card {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 12px;
+    border-style: outset;
+    border-radius: 20px;
+    border-color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.ab_me_banner{
+    background-color: #57475e;
+    padding: 5px;
+    border-radius: 17px;
+    font-size: 14px;
+    color: #ffffff;
+    position: top;
+    
+}
+
+#card1 {
+    grid-area: 1/1/2/2;  
+}
+
+#card2 {
+    grid-area: 1/2/2/3;
+}
+
+hr {
+    width: 30%
+
+}
+
+#lagos {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#lagos figure {
+    grid-area: 1/1/2/2
+}
+
+#lagos p {
+    grid-area:1/2/2/3
+}
+
+#comp_card {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    gap: 20px;
+}
+
+#my_info {
+    grid-area: 1/1/2/2
+    
+}
+
+#comp_card img {
+    grid-area:1/2/2/3;
+    width: 100px;
+    Height: 120px;
+}
+
+
+
+
+
+footer {
+    padding: 10px;
+    background-color: #57475e;
+    color: white;
+    /* padding-left: 10px; */
+    height: 150px;
+    text-align: center;
+
+}
+
+#lastModified {
+    color: #f5f59bb9;
+}
