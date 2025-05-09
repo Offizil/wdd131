@@ -60,6 +60,8 @@ main {
     grid-template-columns: 7fr 3fr;
     grid-template-rows: 1fr;
     gap: 15px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .card {
