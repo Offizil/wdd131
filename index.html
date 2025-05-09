@@ -12,11 +12,15 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="icon" href="favicon.ico">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital@0;1&display=swap" rel="stylesheet">
+
   </head>
 <body>
     <header>
         <div id="course_title">
-            <h3>WDD 131: Dynamic Web Fundamentals - Alma Brown</h3>
+            <h1>WDD 131: Dynamic Web Fundamentals - Alma Brown</h1>
         </div>
         <nav>
             <ul class="navigation">
@@ -34,7 +38,7 @@
             
 
             <div class="ab_me_banner"> 
-                <h3 class="ab_me_banner">About Me</h3>
+                <h2 class="ab_me_banner">About Me</h2>
             </div>
 
             <div id="comp_card" >
@@ -43,7 +47,7 @@
                     My name is Eddie. I mostly go by Fred. I am currently working as an assistant at a private multispecialist clinic in Lagos, Nigeria. I live alone with my pet Jedy, and I love to travel to see my family in different parts of the country frequently. When I'm not busy saving lives, you're sure to catch me writing code.
                 </p>  
 
-                <h3>Lagos, Nigeria <hr></h3>              
+                <h3>Lagos, Nigeria</h3><hr>              
               </div>
 
               <img src="images/passport.jpg" alt="my passport">
@@ -63,13 +67,13 @@
                     Lagos is undisputed as the economic capital of Nigeria. As the former federal capital, it boasts a massive population and widespread urban development throughout the state. The city spreads across two main islands and onto the mainland. It is famous throughout Africa for its music scene and is the center of the Nigerian movie industry — Nollywood.
                 </p>
             </div>
-            </div>
-            </div>
+            
+            
         </section>
 
         <section id="card2" class="card">
             <div class="ab_me_banner"> 
-                <h3 >Web Dev Resources</h3>
+                <h2>Web Dev Resources</h2>
             </div>
             
             <div id="wdr_content">
@@ -84,8 +88,8 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 | Edem Offiong | Nigeria</p>
-        <p id="lastModified">incoming js code</p>
+        <p>&copy; <span id="year"></span> | Edem Offiong | Nigeria</p>
+        <p id="lastModified">incoming javascript code</p>
     </footer>
 
     <script src="scripts/getdates.js"></script>

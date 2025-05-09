@@ -1,13 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400&family=Poppins:wght@200&display=swap');
-
-:root {
-    --heading-font: poppins;
-}
-
-
 
 body{
-    font-family:'Bitter', Poppins;
+    font-family: "Bitter", serif;
+    font-weight: 400;
     font-size: 18px;
     margin: 20px;
     padding: 10px;
@@ -85,7 +79,7 @@ main {
     border-radius: 17px;
     font-size: 14px;
     color: #ffffff;
-    position: top;
+    /* position: top; */
     
 }
 

@@ -1,4 +1,4 @@
-// -----------SCRIPT FOR LAST MODIFIES TIME---------------
+// -----------SCRIPT FOR LAST MODIFIED TIME---------------
   // Get the current date and time
   const lastModifiedString = new Date(document.lastModified);
 
@@ -13,6 +13,10 @@
 
   // Update the content of the element
   lastModifiedElement.textContent = `Last modified: ${formattedDate} at ${formattedTime}`;
+
+  // Dynamically output the copyright year
+  const year = document.getElementById("year");
+  year.innerHTML = lastModifiedString.getFullYear();
 
 
 
