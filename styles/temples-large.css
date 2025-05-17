@@ -1,0 +1,70 @@
+@media (min-width: 1281px) {
+
+    body{
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        margin: 20px;
+        text-align: center;
+    }
+    
+    header {
+        background-color: teal;
+        color: wheat;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+    }
+    
+    header h1 {
+       margin-left: -200px;
+       /* color: black; */
+
+      }
+    
+    
+    #menu {
+        display: none;
+    }
+    
+    .navigation {
+        margin-right: 20px;
+        display: flex;
+        flex-direction: row;    
+        gap: 4rem;
+        list-style: none;
+        background-color: teal;
+        color: #fff;
+        margin: 0;
+        padding-top: 40px;
+    }
+    
+    .navlinks {
+        list-style: none;
+        color: white;
+        text-decoration: none;
+        font-size: larger;
+    }
+    
+    main {
+        margin: 0 auto;
+    }
+    
+    
+    #gallery {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 5px;
+    }
+    
+    
+    footer {
+        padding: 10px;
+        background-color: teal;
+        color: wheat;
+        height: 150px;
+        text-align: center;
+    }
+    }
