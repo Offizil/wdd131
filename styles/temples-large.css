@@ -45,6 +45,12 @@
         text-decoration: none;
         font-size: larger;
     }
+
+    .nav:hover
+    {
+        background-color: green;
+        color: wheat;
+    }
     
     main {
         margin: 0 auto;
