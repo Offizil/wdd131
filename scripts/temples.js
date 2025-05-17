@@ -8,7 +8,7 @@
 
 
 
-  const btn  = document.getElementById('menu');
+  const btn  = document.querySelector('#menu');
   const nav  = document.querySelector('.navigation');
 
   btn.addEventListener('click', () => {

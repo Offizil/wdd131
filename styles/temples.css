@@ -4,7 +4,7 @@
         font-family: "Open Sans", sans-serif;
         font-weight: 400;
         font-size: 18px;
-        margin: 20px;
+        margin: auto;
         text-align: center;
     }
     
@@ -14,16 +14,14 @@
         color: wheat;
         display: grid;
         grid-template-columns: 5fr 3fr;
+        grid-template-rows: auto;
     
     }
     
     header h1 {
-       /* margin-left: -20px; */
-       /* color: greenyellow; */
        grid-template-columns: 1/5;
        grid-template-rows: auto;
        margin-left: 10%;
-       /* font-size: large; */
       }
     
     
@@ -39,11 +37,12 @@
         right: 80px;
         grid-template-columns: 5/6;
         grid-template-rows: auto;
+        z-index: 1000;
+        /* content:☰; */
     }
+    #menu.show { 
+        color: red; }
 
-    #menu.active {
-        color: red;
-    }
 
     .navlinks {
         text-decoration: none;
@@ -60,56 +59,28 @@
     }
    
     .navigation {
-        margin: 0 auto ;
+        /* margin: 0 auto ; */
         flex-direction: column;    
         gap: 1rem;
         list-style: none;
         text-decoration: none;
         background-color: white;
-        color: black;
         display: none;
 
     }
 
  
-     
-    /* .navigation {
-        position: absolute;     
-        top: 100%;
-        left: 0;
-        right: 0;
-        background-color: teal;
-        color: wheat;
-        flex-direction: column;
-        gap: 10px;             
-        display: none;     
-   } */
-    
+
 
 
     .navigation.show {
         display: flex;
-        /* margin: 0 auto; */
-        /* position: absolute; */
-        /* top: 100%; */
-        /* right: 50%; */
+     
 
 
 
     } 
 
-    /* #menu {
-
-    }
-  */
-    
-    /* .navlinks {
-        list-style: none;
-        color: white;
-        text-decoration: none;
-        font-size: larger;
-    } */
-    
     main {
         margin: 0 auto;
         max-width: 800px;
