@@ -39,17 +39,20 @@
         padding-top: 40px;
     }
     
-    .nav {
+    nav a{
         list-style: none;
         color: white;
         text-decoration: none;
         font-size: larger;
     }
 
-    .nav:hover
-    {
-        background-color: green;
-        color: wheat;
+    nav a:hover
+    { 
+        background-color: wheat;
+        color: teal;
+        padding: 5px;
+        border-radius: 10px;
+        font-weight: bold;
     }
     
     main {
