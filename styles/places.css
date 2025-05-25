@@ -120,5 +120,16 @@
       top: 100px;
       left: 70px;
     }
+
+    #weather-card img::before{
+        display: none;
+    }
+    #weather-card img::after {
+        display: inline-block;
+        margin-left: 10px;
+        vertical-align: middle;
+        width: 24px;
+        height: 24px;
+      }
   }
   
