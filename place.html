@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is the course home page for the software development course WDD 131 - Dynamic Web Fundamentals designed and managed by Edem Offiong, a second year student of BYU Idaho.">
+    <meta name="author" content="Edem Offiong">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Country Page</title>
+
+    <link rel="stylesheet" href="styles/places.css">
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    
+    <script defer src="scripts/getdates.js"></script>
+    <script defer src="scripts/places.js"></script>
+
+
+  </head>
+<body>
+    <header>
+        <div id="city-name">
+            <h1>Lagos</h1>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="hero-image">
+   
+            <picture>
+                <!-- Mobile: screens up to 600px -->
+                <source srcset="images/hero-small.webp" width="480" height="960"  media="(max-width: 600px)" type="image/webp">
+             
+                <!-- Desktop: anything above -->
+                <img src="images/hero-large.webp" alt="Lekki-Ikoyi Bridge, Lagos." width="1240" height="720" loading="lazy">
+            </picture>
+              
+        </div>
+        <section id="info-sesh">
+            
+            <div id="data-card">
+                <div id="data"><h2>Data</h2></div>
+                <p>
+                <span>Country:</span> Nigeria<br>
+                <span>Area:</span> 1,171.28 km2 (452.23 sq mi)<br>
+                <span>Population:</span> 21,437,435<br>
+                <span>Languages:</span> Yoruba, English<br>
+                <span>Currency:</span> Naira<br>
+                <span>Zone:</span> UTC+1<br>
+                <span>Code:</span> +234<br>
+                <span>Demonym:</span> Lagosian
+            </p>
+            </div>
+
+            <div id="weather-card">
+                <div id="weather">
+                <h2>Weather</h2>
+                <img src="images/sunshine.svg" alt="weather icon" width="40", height="40">
+                </div>
+                <p id="weather-info" >
+                    <b>Temperature:</b><span id="tempP">32</span> °C <br>
+                    <b>Consitions:</b> Cloudy<br>
+                    <b>Wind:</b><span id="velP">11</span> Km/h<br>
+                    <b>Wind Chill:</b> <span id="windchill"></span>
+                </p>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> | Edem Offiong | Nigeria</p>
+        <p id="lastModified">incoming javascript code</p>
+    </footer>
+
+</body>
+</html>
+
