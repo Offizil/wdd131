@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is the course home page for the software development course WDD 131 - Dynamic Web Fundamentals designed and managed by Edem Offiong, a second year student of BYU Idaho.">
+    <meta name="author" content="Edem Offiong">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Edem Offiong - WDD 131 - Dynamic Web Fundamentals</title>
+
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    
+    <script defer src="scripts/getdates.js"></script>
+    <script defer src="scripts/filtered-temples.js"></script>
+
+
+  </head>
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <!-- <button id="menu"></button> -->
+        <button id="menu" aria-label="Open menu" aria-expanded="false">
+            ☰
+          </button>
+
+        <nav class="navigation">
+            <button data-filter="home">Home</button>
+            <button data-filter="old">Old</button>
+            <button data-filter="new">New</button>
+            <button data-filter="large">Large</button>
+            <button data-filter="small">Small</button>
+          </nav>
+    </header>
+
+    <main>
+        <h2 id="home">Home</h2>
+
+        <section id="templeCards">
+
+        </section>
+           
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> | Edem Offiong | Nigeria</p>
+        <p id="lastModified">incoming javascript code</p>
+    </footer>
+
+</body>
+</html>
+

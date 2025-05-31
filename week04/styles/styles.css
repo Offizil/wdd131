@@ -1,0 +1,29 @@
+h1 {
+    background-color: teal;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    color: wheat;
+    font-size: xx-large;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+footer {
+    padding: 10px;
+    background-color: teal;
+    color: white;
+    /* padding-left: 10px; */
+    height: 150px;
+    text-align: center;
+
+}
+
+#lastModified, #year {
+    color: #f5f59bb9;
+}
