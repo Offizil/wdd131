@@ -46,10 +46,11 @@
        font-weight: 400;
        color: teal;
        margin: 0 auto;
+       padding: 10px;
        
    }
 
-   nav button:hover
+   nav a:hover
    {
        background-color: wheat;
        color: teal;
@@ -67,7 +68,8 @@
        display: none;
 
    }
-
+    
+   
 
 
 
@@ -108,7 +110,7 @@
 
    span {
     font-weight: bold;
-    color: purple;
+    color: beige;
    }
 
    h3 {

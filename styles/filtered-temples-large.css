@@ -46,13 +46,14 @@
         color: white;
         text-decoration: none;
         font-size: larger;
+        padding: 15px;
     }
 
-    nav button:hover
+    nav a:hover
     { 
         background-color: wheat;
         color: teal;
-        /* padding: 5px; */
+        padding: 5px;
         border-radius: 10px;
         font-weight: bold;
     }
@@ -81,7 +82,7 @@
     
    span {
     font-weight: bold;
-    color: purple;
+    color: beige;
    }
 
    h3 {
