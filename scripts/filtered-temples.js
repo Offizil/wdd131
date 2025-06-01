@@ -142,8 +142,8 @@ function filterTemples(filter) {
 }
 
 // Event listeners on nav buttons
-document.querySelectorAll(".navigation button").forEach((button) => {
-  button.addEventListener("click", (e) => {
+document.querySelectorAll(".navigation a").forEach((a) => {
+  a.addEventListener("click", (e) => {
     const filter = e.target.dataset.filter;
     filterTemples(filter);
   });

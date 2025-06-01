@@ -28,6 +28,7 @@
     }
     
     .navigation {
+        padding-top: 20px;
         margin-right: 20px;
         display: flex;
         flex-direction: row;    
@@ -39,21 +40,20 @@
         /* padding-top: 40px; */
     }
     
-    nav button{
+    nav a{
         border: none;
         background-color: teal;
         list-style: none;
-        color: white;
+        color: beige;
         text-decoration: none;
         font-size: larger;
-        padding: 15px;
+        padding: 10px;
     }
 
     nav a:hover
     { 
         background-color: wheat;
         color: teal;
-        padding: 5px;
         border-radius: 10px;
         font-weight: bold;
     }
