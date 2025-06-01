@@ -110,24 +110,6 @@
 }
 
 
-    /* #templeCards {
-        display: block;
-        padding: 1rem;
-        gap: 1.5rem;
-      }
-      
-      #templeCards section {
-        margin-bottom: 1.5rem;
-        border: 1px solid hsla(0, 0%, 80%, 0.315);
-        padding: 1rem;
-        background-color: #f9f9f9;
-        border-radius: 8px;
-      } */
-/* ------------------------------------ */
-      /* #templeCards img {
-        box-shadow: 20px 20px  violet;
-
-      } */
       
       /* Desktop Grid View */
       @media screen and (min-width: 768px) {
@@ -145,72 +127,3 @@
 
 
 
-
-
-
-
-
-
-/* 
-    .gridview {
-        width: 100%;
-        background-color: rgb(228, 228, 220);
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 20px;
-        align-items: center;
-        justify-items: center;
-      }
-
-.gridview section{
-        margin: 5px;
-        padding: 2.5rem 1.5rem;
-        border-radius: 10px;
-        border: #7c2828 3px solid;
-        color: #151a24;
-  }
-
-
-.gridview section img{
-    display: block;
-    width: 50%;
-    margin: 0 auto;
-    padding: 2rem;
-  }
-
-  .listview{
-    display: inline;
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin: 10px;
-    vertical-align: top;
-  
-  
-  }
-  
-  
-  .listview section {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
-    padding: 1rem;
-    color: #14213D;
-    margin: 0 .7rem;
-    font-weight: bold;
-    font-size: 13px;
-    align-items: center;
-  }
-  
-  .listview section:nth-last-of-type(even) {
-    background-color: beige;
-  }
-  
-  .listview section p {
-    padding: 3px;
-    font-size: medium;
-  }
-  
-  .listview section img{
-    width: 100px;
-    height: 100px;
-  }
-   */
