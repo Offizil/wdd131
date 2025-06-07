@@ -1,0 +1,74 @@
+header{
+    background-color: maroon;
+    color: beige;
+    padding: 20px;
+
+}
+h2, h3 {
+ Color: maroon;
+   
+}
+
+hr {
+    border: 2px solid #776885;
+}
+
+body {
+    
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+#heading-font {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* color: red; */
+    
+}
+
+.colors {
+    border: 2px solid ;
+    margin: 10px;
+    width: 100px;
+    padding-bottom: 10px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+}
+
+#primary {
+ background-color: maroon;
+ color: white;
+}
+   
+#secondary {
+    background-color: beige;
+    color: maroon;
+}
+
+
+#accent {
+    background-color: #776885;
+    color: white;
+}
+
+
+#desktop-wireframe {
+    width: 80%;
+}
+
+#mobile-wireframe {
+    max-width: 70%;
+}
+
+
+footer {
+    padding: 10px;
+    background-color: maroon;
+    color: beige;
+    height: 150px;
+    text-align: center;
+}
