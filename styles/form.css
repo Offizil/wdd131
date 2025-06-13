@@ -43,21 +43,30 @@ form.form input[type="textarea"] {
   font-size: 1rem;
 }
 
-form.form input[type="textarea"] {
+
+form.form textarea  {
     height: 150px;
+    width: 100%;
+    max-width: 600px;
     box-sizing: content-box;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid grey;
 }
 
 form.form .stars {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
-  margin-top: 0.5rem;
+  gap: 1.5rem;
+  /* margin-top: 5rem; */
+  margin-bottom: 10px;
 }
 
 /* form.form .stars input[type="radio"] {
-  display: none;
+   display: none;
+
 } */
+
 
 form.form .stars label {
   font-size: 1.5rem;
@@ -105,7 +114,7 @@ form.form span {
 
 
 /* ======================== */
-.stars {
+/* .stars {
   display: flex;
   justify-content: start;
   gap: 2rem;
@@ -126,7 +135,7 @@ form.form span {
 
 .star-column input[type="radio"] {
   cursor: pointer;
-}
+} */
 
 
 
@@ -151,6 +160,10 @@ footer {
 
 #lastModified, #year {
     color: beige;
+}
+
+#rating_text {
+    font-size: medium;
 }
 
 
