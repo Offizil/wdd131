@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Week 05 Forms assignment">
+    <meta name="author" content="Edem Offiong">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>W05 Assignment: Product Review Form</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital@0;1&display=swap" rel="stylesheet">
+
+    <script defer src="scripts/getdates.js"></script>
+    <script defer src="scripts/forms.js"></script>
+
+
+
+  </head>
+<body>
+    <header>
+        <div id="header_text">
+            <h1>Product Review</h1>
+        </div>
+ 
+    </header>
+
+       
+    <main>
+        <form class="form" method="get" action="review.html">
+            <label>Product name
+                <select id="productSelect" name="Product_names">
+                    <option selected disabled value="">Choose a Product...</option>
+            </select></label>
+            
+            
+            <!-- <label> Overall rating
+                <div class="stars">
+                <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar">☆</label>
+                <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar">☆☆</label>
+                <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar">☆☆☆</label>
+                <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar">☆☆☆☆</label>
+                <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar">☆☆☆☆☆</label>
+                </div>
+            </label> -->
+
+            <label>Overall rating
+    <div class="stars">
+        <div class="star-rating">
+            <label for="onestar">☆</label>
+            <input type="radio" id="onestar" name="stars" value="1" required>
+            </div>
+            
+            <div class="star-rating">
+            <label for="twostar">☆☆</label>
+            <input type="radio" id="twostar" name="stars" value="2">
+            </div>
+            
+            <div class="star-rating">
+            <label for="threestar">☆☆☆</label>
+            <input type="radio" id="threestar" name="stars" value="3">
+            </div>
+            
+            <div class="star-rating">
+            <label for="fourstar">☆☆☆☆</label>
+            <input type="radio" id="fourstar" name="stars" value="4">
+            </div>
+            
+            <div class="star-rating">
+            <label for="fivestar">☆☆☆☆☆</label>
+            <input type="radio" id="fivestar" name="stars" value="5">
+        </div>
+  </div>
+</label>
+
+
+
+
+
+
+
+            <label> Date of installation
+                <input type="date" id="installation" name="installation" required>
+            </label>
+
+            <h4>Which features did you find useful in the product?<br><span>Check all that apply</span></h4>
+            <label class="features"><input type="checkbox" id="durability" name="durability" value="durability"> Durability</label>
+            <label class="features"><input type="checkbox" id="easeofuse" name="easeofuse" value="easeofuse"> Ease of Use</label>
+            <label class="features"><input type="checkbox" id="performance" name="performance" value="performance"> Performance</label>
+            <label class="features"><input type="checkbox" id="design" name="design" value="design"> Design</label>
+            
+            
+            <label class="review">Written Review(Optional)
+                <input type="textarea" id="review" name="review">
+            </label>
+
+            
+            <label class="name">Your Name(Optional)
+                <input type="text" id="name" name="name">
+            </label>
+
+            <input type="submit" value="Post Review">
+                  
+           
+        </form>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> | Edem Offiong | Nigeria</p>
+        <p id="lastModified">incoming javascript code</p>
+    </footer>
+
+</body>
+</html>

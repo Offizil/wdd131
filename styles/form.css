@@ -1,0 +1,168 @@
+header {
+    background-color: navy;
+    color: beige;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+main {
+    background-color: beige;
+    margin: 0 auto;
+}
+/* ------------FORM STYLING-------------------- */
+form.form {
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 600px;
+  background-color: beige;
+  font-family: "Open Sans", sans-serif;
+}
+
+form.form label,
+form.form h4 {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+form.form input[type="text"],
+form.form input[type="date"],
+form.form select,
+form.form input[type="textarea"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+form.form input[type="textarea"] {
+    height: 150px;
+    box-sizing: content-box;
+}
+
+form.form .stars {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+/* form.form .stars input[type="radio"] {
+  display: none;
+} */
+
+form.form .stars label {
+  font-size: 1.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+form.form .features {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form.form input[type="checkbox"] {
+  margin-left: 0.5rem;
+  margin-bottom: 15px;
+}
+
+form.form input[type="submit"] {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: navy;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+form.form input[type="submit"]:hover {
+  background-color: darkcyan;
+}
+
+form.form input[type="checkbox"]:nth-of-type(4) {
+    margin-bottom: 70px;
+}
+
+form.form span {
+  font-weight: normal;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+
+
+/* ======================== */
+.stars {
+  display: flex;
+  justify-content: start;
+  gap: 2rem;
+  margin-top: 0.5rem;
+}
+
+.star-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.star-column label {
+  font-size: 1.4rem;
+  margin-bottom: 0.3rem;
+  cursor: pointer;
+}
+
+.star-column input[type="radio"] {
+  cursor: pointer;
+}
+
+
+
+
+
+
+/* ----------------------- */
+
+
+
+
+
+footer {
+    padding: 10px;
+    background-color: navy;
+    color: white;
+    /* padding-left: 10px; */
+    height: 150px;
+    text-align: center;
+
+}
+
+#lastModified, #year {
+    color: beige;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
