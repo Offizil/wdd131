@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is the course final project contact page.">
+    <meta name="author" content="Edem Offiong">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Edem Offiong - WDD 131 Final project Contact page</title>
+
+    <link rel="stylesheet" href="styles/nara.css">
+    <link rel="stylesheet" href="styles/nara_large.css">
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    
+    <script defer src="../scripts/getdates.js"></script>
+    <script defer src="scripts/nara.js"></script>
+
+
+  </head>
+<body>
+    <header>
+        <img id="logo" src="images/nara_logo_r.jpg" alt="clinic logo image" loading="lazy">
+
+        <button id="menu" aria-label="Open menu" aria-expanded="false">
+            ☰
+          </button>
+        <nav>
+            <ul class="navigation">
+                <li><a class="nav" href="index.html">Home</a></li>
+                <li><a class="nav" href="#">Services</a></li>
+                <li><a class="nav" href="#">About Us</a></li>
+                <li><a class="nav" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="in_touch_sesh">
+            <div id="talk">
+                <div id="in_touch_dash" class="dash"></div>
+                <h1>Get in Touch<br>with <span id="themed_text">Nara Dental Clinic</span></h1>
+                <p>Have questions or need to book an appointment? We’re here to help—reach out to us today.</p>
+            </div> 
+
+            <img src="images/oral_exam.webp"  alt="Nara staffs photoshoot" loading="lazy">
+
+            
+        </section>
+        <section id="contact_us_sesh">
+            <div id="not_form">
+            <h2>Contact Us</h2>
+            <p>Reach out for high-quality dental services and perfect smiles.</p>
+            <img src="images/clinic_interior.webp"  alt="graphic of oral exam" loading="lazy">
+            
+            </div>
+
+
+            <form method="get" class="reg_form" action="thank_you.html">
+                <div>
+                    <label>First Name<span id="req">*</span>
+                    <input type="text" id="fname" name="fname" placeholder="Enter your first name...">
+                    </label>
+
+                    <label>Last Name<span id="req">*</span>
+                    <input type="text" id="lname" name="lname" placeholder="Enter your last name...">
+                    </label>
+
+                    <label>Email<span id="req">*</span>
+                    <input type="email" id="email" name="email" placeholder="person@gmail.com">
+                    </label>
+
+                    <label>Reason for intended visit<span id="n_req">(optional)</span>
+                    <textarea id="raison" placeholder="A brief note of your reason for visit for the doctor..." name="raison"></textarea>
+                    </label>
+
+                    <input type="submit" value="Book an Appointment">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+    <div id="locations">
+        <div class="branches">
+        <h4>Lekki Branch</h4>
+        <p>Plot 167 Ibom layout (Beside Etaval hotel), Lekki.</p>
+        <p>+234 705 343 7136</p>
+        </div>
+
+        <div class="branches">
+        <h4>Victoria Island Branch</h4>
+        <p>Ground Floor, Voen Mall (Filmhouse), Ajose Adeogun Victoria Island.</p>
+        <p>+234 915 065 5839</p>
+        </div>
+
+        <div class="branches">
+        <h4>Sangotedo Branch</h4>
+        <p>2b Nnama Lane, Off Grace Bill Road, Sangotedo, Ajah.</p>
+        <p>+234 704 446 6076</p>
+        </div>
+    </div>
+        <div id="newsletter">
+            <form method="get" action="thankyou.html" id="submit_form">
+                <label>Sign up for our newsletter<input type="email" id="email" value="Your Email Address" name="email"></label>
+                <input type="button" value="submit">
+            </form>
+        </div>
+
+        <div id="signature">
+        <p>&copy; <span id="year"></span> | Edem Offiong | Nigeria |
+        <span id="lastModified">incoming javascript code</span></p>
+        </div>
+    </footer>
+
+</body>
+</html>
+

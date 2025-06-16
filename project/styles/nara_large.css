@@ -318,4 +318,154 @@ footer label {
 
 }
 
+
+
+/* ------------CONTACT PAGE STYLE------------- */
+
+#in_touch_sesh {
+  background-color: beige;
+  margin: 0 auto;
+  color: grey;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1-px;
+}
+
+/* #in_touch_dash {
+margin-right: 90px;
+} */
+
+#themed_text{
+  color: maroon;
+  font-weight: bold;
+}
+
+#in_touch_sesh img {
+  border-radius: 10px;
+  border: none;
+  grid-area: 1/2/2/3;
+  margin: 60px;
+}
+
+
+#talk {
+  grid-area: 1/1/2/2;
+  margin: 120px;
+  font-size: 1.5rem;
+  /* margin: 40px; */
+}
+
+#talk p{
+ font-size: 1rem;
+}
+
+
+#contact_us_sesh {
+  display: grid;
+  grid-row: 1fr 1fr;
+  gap: -10px;
+  color: black;
+  /* background-color: pink; */
+}
+
+#not_form {
+ grid-area: 1/1/2/2;
+ margin: 80px -40px 80px 80px;
+  font-size: 1.5rem;
+
+
+}
+
+
+#not_form p {
+  font-size: 1rem;
+  color: rgb(83, 78, 78);
+  font-size: 1.2rem;
+
+}
+
+
+
+
+#contact_us_sesh img 
+{
+ border-radius: 10px;
+ border: none;
+ width: 600px;
+ height: 350px;
+ margin: 0 auto;
+ max-width: 600px;
+}
+
+#contact_us_sesh label {
+  display: block;
+  margin: 0 auto;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.reg_form {
+  /* display: block; */
+  background-color: brown;
+  border-radius: 10px;
+  color: beige;
+  width: 500px;
+  height: 500px;
+  margin-right: 80px;
+  margin-left: -40px;
+  padding: 20px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  grid-area: 1/2/2/3;
+
+}
+
+.reg_form input[type="text"],
+.reg_form input[type="email"] {
+  border: 1px solid maroon;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: grey;
+  width: 400px;
+  display: block;
+
+}
+
+#raison {
+  border: 1px solid maroon;
+  border-radius: 10px;
+  padding: 10px;
+  /* margin: 20px; */
+  margin-bottom: 20px;
+  color: grey;
+  height: 100px;
+  width: 400px;
+
+}
+
+.reg_form input[type="submit"] {
+  background-color: beige;
+  display: block;
+  color: maroon;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  margin: 0 auto;
+  font-weight: bolder;
+  
+}
+
+.reg_form input[type="submit"]:hover {
+  background-color: black;
+  color: beige;
+}
+
+
+#req {
+  color: black;
+
+}
 }
