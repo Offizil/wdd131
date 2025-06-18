@@ -1,4 +1,4 @@
-   @media (max-width: 1000px) {
+   @media (max-width: 1079px) {
      body{
         font-family: "Open Sans", sans-serif;
         font-weight: 400;
@@ -11,9 +11,6 @@
         width: 100%;
         background-color: white;
         color: black;
-        /* display: grid;
-        grid-template-columns: 1fr 4fr;
-        grid-template-rows: 1fr; */
         display: flex;
         flex-direction: row;
     
@@ -101,7 +98,6 @@
   top: 10%;
   left: 10%;
   text-align: left;
-  /* transform: translate(-50%, -50%); */
   color: beige;
   font-size: 1.5rem;
 }
@@ -113,7 +109,6 @@
 #book_now_btn {
     border: none;
     outline: 0;
-    /* display: inline-block; */
     padding: 15px 35px;
     color: beige;
     background-color: maroon;
@@ -173,7 +168,6 @@
 #specialty_cards {
   display: flex;
   flex-direction: column;
-   /* display: block; */
 
 }
 
@@ -183,7 +177,6 @@
   background-color: white;
   padding: 20px;
   margin: 0 auto;
-  /* text-align: center */
   border-radius: 10px;
   width: 300px;
   height: 350px;
@@ -211,19 +204,14 @@
 
 
 #choose_us_sessh{
-  /* margin: 20px; */
-  /* text-align: center; */
   display: block;
   margin: 0 auto;
 }
 
 
 #question {
-  /* grid-area: 1/1/2/2; */
   text-align: left;
   margin-left: 20px;
-  /* padding-left: 50px; */
-
 }
 
 #answer {
@@ -238,12 +226,10 @@
 
 
 #another_banner {
-  /* grid-area: 2/1/3/3; */
   margin: 0 auto;
 
 }
  #another_banner img {
-  /* margin-top: -130px; */
   width: 100%;
   max-width: 600px;
   height: 450px;
@@ -257,13 +243,9 @@
 #team_sesh{
   display: flex;
   flex-direction: column;
-  /* padding: 40px; */
-
   }
 
   #team_sesh img {
-    /* position: inherit; */
-
   border-radius: 10px;
   height: 250px;
   width: 450px;
@@ -273,11 +255,8 @@
 
 
 #team_sesh h3 {
-    /* position: relative; */
-    /* top: 10px; */
   font-size: 2rem;
   color: maroon;
-  /* margin-top: 20px; */
   margin-left: 50px;
 }
 
@@ -315,13 +294,11 @@ footer {
         padding: 10px;
         background-color: black;
         color: white;
-        /* height: 150px; */
         text-align: left;
         font-size: small;
     }
 
 #locations {
-  /* grid-area: 1/1/2/2; */
   margin: 20px;
 }
 
@@ -335,8 +312,7 @@ footer {
 
 #newsletter {
   margin: 20px;
-  /* grid-area: 1/2/2/3; */
- 
+
 }
 
 #newsletter input[type="email"]{
@@ -403,21 +379,13 @@ margin-top: 40px;
 }
 
 
-/* #contact_us_sesh {
-  /* display: block; */
-  /* flex-direction: column; */
-  /* color: grey; */
-  /* background-color: pink; */
-  
- */
 
-contact_us_sesh img 
+#contact_us_sesh img 
 {
  border-radius: 10px;
  border: none;
  width: 300px;
  margin: 0 auto;
- /* max-width: 600px; */
 }
 
 #contact_us_sesh label {
@@ -428,15 +396,15 @@ contact_us_sesh img
 }
 
 .reg_form {
-  /* display: block; */
   background-color: brown;
   border-radius: 10px;
   color: beige;
   width: 500px;
-  height: 500px;
+  height: 600px;
   margin: 0 auto;
   padding: 20px;
   margin-bottom: 40px;
+  margin-top: 40px;
 
 }
 
@@ -446,7 +414,6 @@ contact_us_sesh img
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 20px;
-  /* color: grey; */
   width: 400px;
   display: block;
 
@@ -456,7 +423,6 @@ contact_us_sesh img
   border: 1px solid maroon;
   border-radius: 10px;
   padding: 10px;
-  /* margin: 20px; */
   margin-bottom: 20px;
   color: grey;
   height: 100px;
@@ -468,12 +434,13 @@ contact_us_sesh img
   background-color: beige;
   display: block;
   color: maroon;
-  border: 1px solid black;
+  border: 1px solid;
   border-radius: 10px;
   padding: 10px;
   width: 200px;
   margin: 0 auto;
   font-weight: bolder;
+  margin-top: 40px;
   
 }
 
@@ -486,5 +453,191 @@ contact_us_sesh img
 #req {
   color: black;
 }
+
+
+/* -----------ABOUT US ------------------- */
+
+
+
+#who_us {
+  display: block;
+  flex-direction: column;
+
+}
+
+#who_us div {
+  background-color: beige;
+  margin: 10%;
+  padding: 10%;
+  
+}
+
+#who_us img {
+  border-radius: 20%;
+  padding: 10%;
+  width: 400px;
+}
+
+#who_us p {
+line-height: 30px;
+
+}
+
+
+
+#our_offer { 
+  background-color: beige;
+  padding: 60px;
+}
+
+
+#our_offer h2 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+#our_offer p {
+  line-height: 30px;
+}
+#bold_this {
+  font-weight: 900;
+
+}
+
+#excellence {
+  background-color: black;
+  color: beige;
+  padding: 60px;
+}
+#excellence h2{
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 60px;
+}
+#excellence .dash {
+margin-left: 100px ;
+margin-bottom: -100px;
+}
+#excel_con{
+width: 600px;
+margin: 0px 50px 0px 50px;
+height: 250px;
+line-height: 30px;
+padding: 60px;
+}
+
+#team_area {
+  padding: 40px;
+  
+}
+#team_area h2{
+  font-size: 3rem;
+  font-weight: 900;
+}
+#team_guys {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 0 auto;
+}
+
+.members_card {
+  background-color: beige;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  max-width: 600px;
+
+}
+.members_card img {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.members_card h4, 
+.members_card p {
+  color: black;
+}
+
+/* ---------SERVICES PAGE----------------- */
+#specialties {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: beige;  
+  padding: 50px;
+  margin: 0 auto;
+}
+
+#specialties .service_card {
+  border-radius: 5%;
+  background-color: white;
+  height: 320px;
+  padding: 20px;
+}
+
+#specialties .service_card h3 {
+color: maroon;
+}
+
+.services_hero {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.services_hero p {
+  font-size: 1.5rem;
+}
+
+
+/* ----------thank you----------- */
+
+
+.thank-you-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.thank-you-card {
+  background-color: beige;
+  border-radius: 12px;
+  padding: 3rem;
+  text-align: center;
+  max-width: 600px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 80px auto 80px auto
+}
+
+
+.thank-you-card h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: maroon;
+}
+
+#thanks p {
+  font-size: 1.1rem;
+  margin: 0.75rem 0;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 2rem;
+  background-color: maroon;
+  color: beige;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #7b1f1f;
+}
+
 
 }
