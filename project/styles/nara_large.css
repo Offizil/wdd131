@@ -473,6 +473,9 @@ footer label {
 .services_hero {
   text-align: center;
   font-size: 2.5rem;
+  position: absolute;
+  left: 5%;
+
 }
 
 .services_hero p {
